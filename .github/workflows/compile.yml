@@ -28,7 +28,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install -g typescript
     - run: git clone https://github.com/nginx/njs.git && mv njs/ts/ ../type
-    - run: tsc --target ES2022 --lib ES6 ddns.ts
+    - run: tsc --target ES2022 --lib ES2022 ddns.ts
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:

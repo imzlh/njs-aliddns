@@ -1,4 +1,5 @@
-/// <reference path="../type/index.d.ts" />
+/// <reference path="../type/ngx_http_js_module.d.ts" />
+/// <reference path="../type/ngx_core.d.ts" />
 
 /**
  * AliDDNS njs interface
